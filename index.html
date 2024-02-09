@@ -1,84 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Watch-site</title>
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch2</title>
+    <link rel="stylesheet" href="style.css">
 
-    <!--Boxicons-->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-
-    <!--Tipografia-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <!--Tipografia-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!--Fin Tipografia-->
-  </head>
-  <body>
-    <!--Header-->
-    <header>
-      <a href="" class="logo"><i class="bx bx-stopwatch"></i>Honor</a>
+      rel="stylesheet"/>
 
-      <ul class="navlist">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Smartphone</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <div class="h-main">
-        <a href="" class="h-btn">Buy Now</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <div class="bx bx-moon" id="darkmode"></div>
-      </div>
+     <!--fin-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="bar-nav">
+        <a class="logo" href="#">Honor</a>
+
+        <input type="checkbox" id="check">
+
+        <label for="check" class="icons" >
+            <i class='bx bx-menu' id="open-menu"></i>
+            <i class='bx bx-x' id="close-menu"></i>
+        </label>
+
+
+        <nav class="menu">
+            <a href="#" style="--i:0;">Home</a>
+            <a href="#" style="--i:1;">About</a>
+            <a href="#" style="--i:2;">Smartphone</a>
+            <a href="#" style="--i:3;">Store</a>
+            <a href="#" style="--i:4;">Contact us</a>
+        </nav>
+
+        <div class="btn">
+            <button class="btn__buy">Buy now</button>
+
+        </div>
+    
+
     </header>
 
-    <!--hero section-->
+
+    <!--HERO SECTION-->
 
     <section class="hero">
-      <div class="hero-text">
-        <h1>Smartwatch</h1>
-        <h4>Element serie</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. kjebwfj
-          jendjne jnedwkj.
-        </p>
+        
+        <div class="hero-text">
+            <h1>Smart Watch</h1>
+            <h4>Element serie</h4>
+            <p>
+               Manten la interacción y la diversión de tus apps favoritas, al alcance de tu mano.
+            </p>
+        
+        <div class="hero-box">
+                <div class="hero-box__watch">
+                    <h3>Silver</h3>
+                    <h5>Element</h5>
+                    <img src="img/main1.png" alt="">
+                </div>
+                <div class="hero-box__watch">
+                    <h3>Silver</h3>
+                    <h5>Element</h5>
+                    <img src="img/main2.png" alt="">
+                </div>
+                <div class="hero-box__watch">
+                    <h3>Silver</h3>
+                    <h5>Element</h5>
+                    <img src="img/main1.png" alt="">
+                 </div>
 
-        <div class="hero-in">
-          <div class="box">
-            <h3>White</h3>
-            <h5>Element</h5>
-            <img src="img/main1.png" alt="" />
-          </div>
-          <div class="box">
-            <h3>Black</h3>
-            <h5>Element</h5>
-            <img src="img/main2.png" alt="" />
-          </div>
-          <div class="box">
-            <h3>Silver</h3>
-            <h5>Element</h5>
-            <img src="img/main1.png" alt="" />
-          </div>
         </div>
-      </div>
+    </div>
 
-      <div class="hero-img">
-        <img src="img/hero.png" alt="" />
-      </div>
+        <div class="hero-img">
+            <img src="img/hero.png" alt="">
+        </div>
+
+
     </section>
 
     <div class="down-arrow">
-      <i class='bx bx-down-arrow-alt'></i>
+       <a href="https://api.whatsapp.com/send?phone=5637120792">
+        <i class='bx bxl-whatsapp'></i>
+       </a> 
     </div>
-
-    <script src="js/script.js"></script>
-  </body>
+    
+</body>
 </html>
